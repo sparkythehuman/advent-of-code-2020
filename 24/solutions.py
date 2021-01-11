@@ -117,7 +117,6 @@ def part_two(filename):
     return len(grid)
 
 def test_part_two():
-    foo = part_two('./24/example_input.txt') 
     assert part_two('./24/example_input.txt') == 2208
 
 if __name__ == '__main__':
